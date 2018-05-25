@@ -8,7 +8,7 @@
 ![Create key pair](images/key_pairs.png)
 ![Create key pair](images/create_key_pair.png)
 
-Save the key file locally.
+Save the key file to your local machine.
 
 Go back to the EC2 Management console.
 
