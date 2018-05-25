@@ -50,7 +50,7 @@ Get your public IP address and your DNS hostname
 ![Get your public DNS](images/get_public_dns.png)
 Visit your web page
 ![Go to your web page](images/your_web_page.png)
-Log in to your instance via SSH
+## Log in to your instance via SSH
 
 Change key permissions
 
@@ -69,12 +69,11 @@ ssh-add -l
 ![Yay](images/hacker_yay.png)
 
 ## Important caveats
-Please note that this set up is for demonstration purposes only.
 
-This setup is not secure.
+* Please note that this set up is for demonstration purposes only.
 
-You should be enforcing HTTPS.
+* This setup is not secure:
+    - You should be enforcing HTTPS.
+    - It is also not best practice to allow SSH connections directly into your web server, as we do here.
 
-It is also not best practice to allow SSH connections directly into your web server, as we do here.
-
-If you want to know more, search google to learn how to set up private and public subnets and learn about bastion hosts.
+* If you want to know more, search google to learn how to set up private and public subnets and learn about bastion hosts.
