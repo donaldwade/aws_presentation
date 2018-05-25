@@ -34,15 +34,15 @@ nohup busybox httpd -f -p 80 &
 
 Your instance will run this script as soon as it boots up, serving your `index.html` file on port 80.
 
-Click add tags
+Click Add Tags
 ![Add storage](images/add_storage.png)
-Click configure security groups
+Click Configure Security Groups
 ![Add tags](images/add_tags.png)
-Configure SSH and HTTP
+Configure Allow SSH and HTTP access
 ![Configure security groups](images/configure_security_group.png)
 Review your settings and click launch
 ![Review and launch](images/review_and_launch.png)
-Add your key to the instance. This is what you will need to connect via SSH
+Add your key to the instance. This is what you will need to connect via SSH.
 ![Add existing key pair and launch](images/use_existing_key_pair_and_launch.png)
 Check that your instance is up and running
 ![Check and view your EC2 instance](images/check_and_view_instances.png)
