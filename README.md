@@ -68,6 +68,18 @@ ssh-add -l
 ![SSH into your instance](images/ssh_in.png)
 ![Yay](images/hacker_yay.png)
 
+Go back to the EC2 management console and click 'Running Instances'
+![EC2 home](images/ec2_home.png)
+
+Terminate your instance
+![Terminate EC2](images/terminate_instance.png)
+
+Confirm termination of instance
+![Yes, really](images/yes_terminate.png)
+
+See that it's gone
+![EC2 terminated](images/ec2_terminated.png)
+
 ## Important caveats
 
 * Please note that this set up is for demonstration purposes only.
