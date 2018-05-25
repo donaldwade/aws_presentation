@@ -7,8 +7,11 @@
 ![Select key pairs](images/select_key_pairs.png)
 ![Create key pair](images/key_pairs.png)
 ![Create key pair](images/create_key_pair.png)
-Save the file somewhere locally
-Go back to the EC2 Management console
+
+Save the key file locally.
+
+Go back to the EC2 Management console.
+
 ![Create EC2 instance](images/aws_home_1.png)
 Select the Ubuntu AMI
 ![Select Ubuntu AMI](images/select_ami.png)
@@ -48,13 +51,6 @@ Get your public IP address and your DNS hostname
 Visit your web page
 ![Go to your web page](images/your_web_page.png)
 Log in to your instance via SSH
-![Log into your instance](images/login.png)
-
-Check your key is added to ssh-agent
-
-```sh
-ssh-add -l
-```
 
 Change key permissions
 
@@ -62,6 +58,13 @@ Change key permissions
 chmod 0600 <private_key_directory>/<your_private_key>.pem
 ssh-add <private_key_directory>/<your_private_key>.pem
 ```
+
+Check your key is added to ssh-agent
+
+```sh
+ssh-add -l
+```
+
 ![SSH into your instance](images/ssh_in.png)
 ![Yay](images/hacker_yay.png)
 
